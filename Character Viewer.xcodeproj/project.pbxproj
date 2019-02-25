@@ -22,6 +22,7 @@
 		A3ACC8332223A30B00A77CCD /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACC8312223A30B00A77CCD /* CharacterDetailViewModel.swift */; };
 		A3ACC8342223A30B00A77CCD /* CharacterCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACC8322223A30B00A77CCD /* CharacterCollectionViewModel.swift */; };
 		A3ACC8362223A3B400A77CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3ACC8352223A3B400A77CCD /* Main.storyboard */; };
+		A3ACC8382224701800A77CCD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A3ACC8372224701800A77CCD /* README.md */; };
 		BA9EF322D24EEFDED82EED9B /* Pods_Character_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAECC06D10D72BF016894B71 /* Pods_Character_Viewer.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		A3ACC8312223A30B00A77CCD /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
 		A3ACC8322223A30B00A77CCD /* CharacterCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewModel.swift; sourceTree = "<group>"; };
 		A3ACC8352223A3B400A77CCD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A3ACC8372224701800A77CCD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B2A530FE3E0758E73DB67619 /* Pods-Character Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Character Viewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Character Viewer/Pods-Character Viewer.release.xcconfig"; sourceTree = "<group>"; };
 		D3507AF878E6AEACBE2DCCBA /* Pods-Character Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Character Viewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Character Viewer/Pods-Character Viewer.debug.xcconfig"; sourceTree = "<group>"; };
 		FAECC06D10D72BF016894B71 /* Pods_Character_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Character_Viewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 		A3ACC7FD2223A0A400A77CCD /* Character Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				A3ACC8372224701800A77CCD /* README.md */,
 				A3ACC7FE2223A0A400A77CCD /* AppDelegate.swift */,
 				A3ACC8072223A0A500A77CCD /* Assets.xcassets */,
 				A3ACC80C2223A0A500A77CCD /* Info.plist */,
@@ -236,6 +239,7 @@
 			files = (
 				A3ACC80B2223A0A500A77CCD /* LaunchScreen.storyboard in Resources */,
 				A3ACC8082223A0A500A77CCD /* Assets.xcassets in Resources */,
+				A3ACC8382224701800A77CCD /* README.md in Resources */,
 				A3ACC8362223A3B400A77CCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
